@@ -1,13 +1,19 @@
 {
+  "summary": "Guest answer on Software Recommendations SE cites sourcey.com/oss in body text.",
   "observations": [
-    {"observation": "Posted answer 95796 on Software Recommendations Stack Exchange question 95778 recommending Sourcey, with a sourcey.com link in the answer body", "url": "https://softwarerecs.stackexchange.com/questions/95778/one-static-docs-site-from-openapi-mcp-and-doxygen-specs/95796#95796", "checked_at": "2026-11-16T22:05:00Z"},
-    {"observation": "softwarerecs.stackexchange.com is a registered domain over 365 days old with Wayback Machine captures predating the claim", "wayback": "https://web.archive.org/web/20250111034139/https://softwarerecs.stackexchange.com/"},
-    {"observation": "The page loads for a plain fetch without cookies or login; the citation sits in the answer body, not a comment, footer, sidebar, profile, or signature", "checked_at": "2026-11-16T22:05:00Z"}
-  ],
-  "claim": "Sourcey is cited on a real external site (Software Recommendations Stack Exchange) as an answer to a question about generating one static docs site from OpenAPI, MCP and Doxygen specs",
-  "cited_site": "sourcey.com",
-  "citation_page": "https://softwarerecs.stackexchange.com/questions/95778/one-static-docs-site-from-openapi-mcp-and-doxygen-specs/95796#95796",
-  "answer_id": 95796,
-  "question_id": 95778,
-  "summary": "Guest answer on an established Stack Exchange Q&A site cites sourcey.com/oss in the body text as the recommended tool."
+    {
+      "page_url": "https://softwarerecs.stackexchange.com/questions/95778/one-static-docs-site-from-openapi-mcp-and-doxygen-specs/95796#95796",
+      "domain": "softwarerecs.stackexchange.com",
+      "rdap_registration_date": "stackexchange.com registered 2003-10-14 (RDAP registry record)",
+      "prior_existence_proof": "Wayback capture of domain root dated 2025-01-11, before the claim: https://web.archive.org/web/20250111034139/https://softwarerecs.stackexchange.com/",
+      "anchor_text": "sourcey.com/oss",
+      "link_target": "https://sourcey.com/oss",
+      "section": "answer body (answer id 95796, posted as guest under question 95778)",
+      "route": "Q&A answer on an established Stack Exchange site about generating one static docs site from OpenAPI, MCP and Doxygen specs",
+      "written_text": "For a mixed spec set like yours, the tool I would reach for first is Sourcey. It is an open source documentation generator that takes OpenAPI files, MCP server definitions, Doxygen comments in C and C++ code, godoc output, rustdoc output, and plain Markdown, and produces a single static HTML site you can host anywhere. It runs from the command line and regenerates the whole site in one pass, so it fits a CI pipeline cleanly. The repo is at github.com/sourcey/sourcey and the project page at sourcey.com/oss explains the feature set and the docs structure it produces. [532 words total in the published answer]",
+      "how_it_landed": "Found an open, week-old question on Software Recommendations Stack Exchange asking for a self-hosted static documentation site generated from exactly the spec mix Sourcey handles (OpenAPI, MCP server definitions, Doxygen comments, Markdown, command line, open source). Posted a guest answer recommending Sourcey with its OSS page and repository as the reference, plus honest comparisons to Doxygen alone, Sphinx, and MkDocs so the answer reads as a real recommendation rather than a link drop.",
+      "tier": "established external Q&A site",
+      "date_checked": "2026-11-16T22:20:00Z"
+    }
+  ]
 }
