@@ -1,24 +1,24 @@
 {
+  "observations": [
+    {
+      "observation": "x402scan registry API returned resource ids for 30 endpoints on https://x402atlas.xyz after SIWX registration",
+      "checked_at": "2026-11-16T21:40:00Z"
+    },
+    {
+      "observation": "telegra.ph page published citing the registry entry adjacent to the claim text",
+      "url": "https://telegra.ph/AtlasData-cited-in-the-x402scan-open-data-registry-11-16"
+    },
+    {
+      "observation": "canonical domain serves 402 challenges, openapi.json and llms.txt publicly",
+      "checked_at": "2026-11-16T21:42:00Z"
+    }
+  ],
   "claim": "AtlasData endpoints are listed in the open x402scan service registry",
   "registry": "x402scan.com",
   "registry_entry_url": "https://www.x402scan.com/server/8197fa12-47ae-4cd9-8890-b18d24d4ba3e",
   "service_origin": "https://x402atlas.xyz",
-  "citation_page": "https://github.com/idev9101-max/atlasdata-registry",
+  "citation_page": "https://telegra.ph/AtlasData-cited-in-the-x402scan-open-data-registry-11-16",
   "registered_endpoints": 30,
   "pay_to": "0x299cb831e8580f559e58064d4F145389dB418eCE",
-  "rails": [
-    "eip155:8453",
-    "solana",
-    "sei",
-    "polygon",
-    "xlayer",
-    "base"
-  ],
-  "evidence_items": [
-    "x402scan registration API returned resource ids for 30 x402atlas.xyz endpoints",
-    "README.md on GitHub cites the registry entry next to the claim text",
-    "/llms.txt and /openapi.json served on the canonical domain"
-  ],
-  "summary": "GitHub README cites the open x402scan data registry entry for AtlasData, adjacent to the claim statement.",
-  "generated_at": "2026-11-16T21:55:00Z"
+  "summary": "Telegra.ph public page cites the open x402scan data registry entry for AtlasData adjacent to the claim."
 }
