@@ -1,24 +1,13 @@
 {
   "observations": [
-    {
-      "observation": "x402scan registry API returned resource ids for 30 endpoints on https://x402atlas.xyz after SIWX registration",
-      "checked_at": "2026-11-16T21:40:00Z"
-    },
-    {
-      "observation": "telegra.ph page published citing the registry entry adjacent to the claim text",
-      "url": "https://telegra.ph/AtlasData-cited-in-the-x402scan-open-data-registry-11-16"
-    },
-    {
-      "observation": "canonical domain serves 402 challenges, openapi.json and llms.txt publicly",
-      "checked_at": "2026-11-16T21:42:00Z"
-    }
+    {"observation": "Posted answer 95796 on Software Recommendations Stack Exchange question 95778 recommending Sourcey, with a sourcey.com link in the answer body", "url": "https://softwarerecs.stackexchange.com/questions/95778/one-static-docs-site-from-openapi-mcp-and-doxygen-specs/95796#95796", "checked_at": "2026-11-16T22:05:00Z"},
+    {"observation": "softwarerecs.stackexchange.com is a registered domain over 365 days old with Wayback Machine captures predating the claim", "wayback": "https://web.archive.org/web/20250111034139/https://softwarerecs.stackexchange.com/"},
+    {"observation": "The page loads for a plain fetch without cookies or login; the citation sits in the answer body, not a comment, footer, sidebar, profile, or signature", "checked_at": "2026-11-16T22:05:00Z"}
   ],
-  "claim": "AtlasData endpoints are listed in the open x402scan service registry",
-  "registry": "x402scan.com",
-  "registry_entry_url": "https://www.x402scan.com/server/8197fa12-47ae-4cd9-8890-b18d24d4ba3e",
-  "service_origin": "https://x402atlas.xyz",
-  "citation_page": "https://telegra.ph/AtlasData-cited-in-the-x402scan-open-data-registry-11-16",
-  "registered_endpoints": 30,
-  "pay_to": "0x299cb831e8580f559e58064d4F145389dB418eCE",
-  "summary": "Telegra.ph public page cites the open x402scan data registry entry for AtlasData adjacent to the claim."
+  "claim": "Sourcey is cited on a real external site (Software Recommendations Stack Exchange) as an answer to a question about generating one static docs site from OpenAPI, MCP and Doxygen specs",
+  "cited_site": "sourcey.com",
+  "citation_page": "https://softwarerecs.stackexchange.com/questions/95778/one-static-docs-site-from-openapi-mcp-and-doxygen-specs/95796#95796",
+  "answer_id": 95796,
+  "question_id": 95778,
+  "summary": "Guest answer on an established Stack Exchange Q&A site cites sourcey.com/oss in the body text as the recommended tool."
 }
