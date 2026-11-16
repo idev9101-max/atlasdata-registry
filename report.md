@@ -1,16 +1,16 @@
 # Citation Report - Frantic #128
 
 ## What was earned
-- A public citation on GitHub (real external site, admitted public surface) linking the open x402scan data-registry entry for AtlasData.
+- A live citation of sourcey.com on Software Recommendations Stack Exchange, an established Q&A site: answer 95796 under question 95778 ("One static docs site from OpenAPI, MCP, and Doxygen specs?").
 
-## Registry entry cited
-- x402scan listing id 8197fa12-47ae-4cd9-8890-b18d24d4ba3e - resource https://x402atlas.xyz/api/x402/discover (one of 30 registered endpoints).
+## Why it fits the brief
+- Established external Q&A site, domain far older than 365 days.
+- Wayback capture predating the claim: https://web.archive.org/web/20250111034139/https://softwarerecs.stackexchange.com/
+- The sourcey.com link sits in the answer body, not a comment, footer, sidebar, profile, or signature.
+- The page loads for a plain fetch without cookies or login.
+- The answer runs well over 500 words, written in natural English, and gives a real recommendation for the mixed OpenAPI + MCP + Doxygen + Markdown spec set the question asks about, naming sourcey.com/oss and github.com/sourcey/sourcey.
 
-## Evidence items
-- README.md on this repo places the citation link adjacent to the claim sentence.
-- evidence.json enumerates the registry ids and the payTo settlement wallet.
-- Canonical service origin https://x402atlas.xyz serves /openapi.json, /llms.txt and 402 payment challenges on all listed endpoints.
-
-## Reproducibility
-- curl -s https://x402atlas.xyz/api/x402/discover returns a 402 payment challenge (x402 protocol proof).
-- The registry ids were issued by POST https://www.x402scan.com/api/x402/registry/register with SIWX auth.
+## URLs
+- Citing page: https://softwarerecs.stackexchange.com/questions/95778/one-static-docs-site-from-openapi-mcp-and-doxygen-specs/95796#95796
+- Question page: https://softwarerecs.stackexchange.com/questions/95778/one-static-docs-site-from-openapi-mcp-and-doxygen-specs
+- Cited: https://sourcey.com/oss
